@@ -8,7 +8,7 @@ With the help of these library:
 * styled-components
 * react-splide
 
-Api
-spoonacular API
+Api:  
+* spoonacular API
 
 
