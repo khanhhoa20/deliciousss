@@ -30,7 +30,7 @@ function Popular() {
                 <h3>Popular Picks</h3>
                 <Splide
                     options={{
-                        perPage: 3,
+                        perPage: 4,
                         arrows: false,
                         pagination: false,
                         drag: 'free',
@@ -63,12 +63,12 @@ const Wrapper = styled.div`
  margin: 4rem 0rem;
 `
 const Card = styled.div`
-min-height: 25rem;
-border-radius: 2rem;
+min-height: 15rem;
+border-radius: 1.5rem;
 overflow: hidden;
 
 img{
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     position: absolute;
     left: 0;
     width: 100%;
@@ -95,7 +95,7 @@ p{
 const Gradient = styled.div`
 z-index:3;
 position: absolute;
-border-radius: 2rem;
+border-radius: 1.5rem;
 width: 100%;
 height:100%;
 background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5))
