@@ -16,7 +16,8 @@ function Search() {
                 <FaSearch></FaSearch>
                 <input
                     onChange={
-                        (e) => setInput(e.target.value)}
+                        (e) =>
+                            setInput(e.target.value)}
                     type="text"
                     value={input}
                 />
