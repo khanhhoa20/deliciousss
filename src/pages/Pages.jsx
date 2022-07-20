@@ -1,8 +1,9 @@
 import React from 'react'
 import Home from './Home'
-import { Searched } from './Searched'
+import Searched from './Searched'
 import { Route, Routes } from 'react-router-dom'
 import Cuisine from './Cuisine'
+import Recipe from './Recipe'
 
 function Pages() {
     return (
@@ -13,6 +14,10 @@ function Pages() {
             <Route
                 path='/searched/:search'
                 element={<Searched />}
+            />
+            <Route
+                path='/recipe/:name'
+                element={<Recipe />}
             />
         </Routes>
 
